@@ -2,7 +2,7 @@ package af.asr.otp.data.model;
 
 
 import af.asr.otp.inftrastructure.configuration.SpringContext;
-import af.asr.otp.service.OTPSender;
+import af.asr.otp.sender.OTPSender;
 import lombok.Data;
 import lombok.ToString;
 

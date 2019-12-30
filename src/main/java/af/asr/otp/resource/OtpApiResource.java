@@ -1,11 +1,11 @@
-package af.asr.otp.controller;
+package af.asr.otp.resource;
 
 import af.asr.otp.data.model.OtpSetting;
 import af.asr.otp.data.model.SentOTP;
 import af.asr.otp.data.repository.OTPSettingsRepository;
 import af.asr.otp.data.repository.SentOTPRepository;
-import af.asr.otp.service.OTPGenerator;
-import af.asr.otp.service.OTPSender;
+import af.asr.otp.sender.OTPGenerator;
+import af.asr.otp.sender.OTPSender;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -16,7 +16,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/otp/v1")
-public class OTPRestController {
+public class OtpApiResource {
 
     private OTPSettingsRepository otpSettingsRepository;
 
@@ -25,9 +25,9 @@ public class OTPRestController {
     private OTPGenerator otpGenerator;
 
 
-    public OTPRestController(OTPSettingsRepository otpSettingsRepository,
-                             SentOTPRepository sentOTPRepository,
-                             OTPGenerator otpGenerator) {
+    public OtpApiResource(OTPSettingsRepository otpSettingsRepository,
+                          SentOTPRepository sentOTPRepository,
+                          OTPGenerator otpGenerator) {
         this.otpSettingsRepository = otpSettingsRepository;
         this.sentOTPRepository = sentOTPRepository;
         this.otpGenerator = otpGenerator;

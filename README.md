@@ -14,4 +14,5 @@
 - Rest Api Resource Support
 - YML OTP Config Support
 - Exception Handling
+- Flexible Data and Config model
 - And More

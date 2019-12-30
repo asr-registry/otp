@@ -1,4 +1,4 @@
-package af.asr.otp.service;
+package af.asr.otp.sender;
 
 import af.asr.otp.data.model.OtpSetting;
 import org.apache.commons.text.StringSubstitutor;
