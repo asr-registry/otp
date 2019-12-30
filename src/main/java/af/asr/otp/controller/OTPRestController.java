@@ -1,11 +1,11 @@
-package af.asr.otp.otp.controller;
+package af.asr.otp.controller;
 
-import af.asr.otp.otp.data.model.OtpSetting;
-import af.asr.otp.otp.data.model.SentOTP;
-import af.asr.otp.otp.data.repository.OTPSettingsRepository;
-import af.asr.otp.otp.data.repository.SentOTPRepository;
-import af.asr.otp.otp.service.OTPGenerator;
-import af.asr.otp.otp.service.OTPSender;
+import af.asr.otp.data.model.OtpSetting;
+import af.asr.otp.data.model.SentOTP;
+import af.asr.otp.data.repository.OTPSettingsRepository;
+import af.asr.otp.data.repository.SentOTPRepository;
+import af.asr.otp.service.OTPGenerator;
+import af.asr.otp.service.OTPSender;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

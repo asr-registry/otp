@@ -1,6 +1,6 @@
-package af.asr.otp.otp.data.repository;
+package af.asr.otp.data.repository;
 
-import af.asr.otp.otp.data.model.SentOTP;
+import af.asr.otp.data.model.SentOTP;
 import lombok.extern.log4j.Log4j2;
 
 import java.util.Map;

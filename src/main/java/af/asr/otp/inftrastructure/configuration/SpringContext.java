@@ -1,4 +1,4 @@
-package af.asr.otp.otp.configuration;
+package af.asr.otp.inftrastructure.configuration;
 
 
 import org.springframework.beans.BeansException;

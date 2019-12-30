@@ -35,13 +35,7 @@
 			<artifactId>commons-text</artifactId>
 			<version>${commons-text.version}</version>
 		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/com.webauthn4j/webauthn4j-core -->
-		<dependency>
-			<groupId>com.webauthn4j</groupId>
-			<artifactId>webauthn4j-core</artifactId>
-			<version>0.9.14.RELEASE</version>
-		</dependency>
+		
 
 		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml -->
 		<dependency>

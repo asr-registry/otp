@@ -1,4 +1,4 @@
-package af.asr.otp.inftrastructure;
+package af.asr.otp.inftrastructure.configuration;
 
 
 import com.fasterxml.jackson.annotation.JsonInclude;

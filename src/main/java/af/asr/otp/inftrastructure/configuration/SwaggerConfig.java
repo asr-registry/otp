@@ -1,4 +1,4 @@
-package af.asr.otp.inftrastructure;
+package af.asr.otp.inftrastructure.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

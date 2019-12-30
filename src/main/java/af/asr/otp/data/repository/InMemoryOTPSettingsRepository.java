@@ -1,7 +1,7 @@
-package af.asr.otp.otp.data.repository;
+package af.asr.otp.data.repository;
 
 
-import af.asr.otp.otp.data.model.OtpSetting;
+import af.asr.otp.data.model.OtpSetting;
 
 import java.util.HashMap;
 import java.util.Map;

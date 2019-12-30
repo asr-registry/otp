@@ -1,6 +1,6 @@
-package af.asr.otp.otp.service;
+package af.asr.otp.service;
 
-import af.asr.otp.otp.data.model.OtpSetting;
+import af.asr.otp.data.model.OtpSetting;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.mail.MailException;
 import org.springframework.mail.MailSender;
