@@ -1,6 +1,6 @@
 package af.asr.otp.sender;
 
-import af.asr.otp.data.model.OtpSetting;
+import af.asr.otp.tests.model.OtpSetting;
 import org.apache.commons.text.StringSubstitutor;
 import org.springframework.util.CollectionUtils;
 

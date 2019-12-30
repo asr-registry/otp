@@ -1,6 +1,6 @@
-package af.asr.otp.data.repository;
+package af.asr.otp.tests.repository;
 
-import af.asr.otp.data.model.OtpSetting;
+import af.asr.otp.tests.model.OtpSetting;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;

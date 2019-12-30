@@ -1,7 +1,7 @@
 package af.asr.otp.sender;
 
-import af.asr.otp.data.model.OtpSetting;
-import af.asr.otp.data.model.SentOTP;
+import af.asr.otp.tests.model.OtpSetting;
+import af.asr.otp.tests.model.SentOTP;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.stereotype.Service;
 

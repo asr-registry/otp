@@ -1,4 +1,4 @@
-package af.asr.otp.data.model;
+package af.asr.otp.tests.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

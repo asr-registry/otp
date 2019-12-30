@@ -1,9 +1,9 @@
 package af.asr.otp.resource;
 
-import af.asr.otp.data.model.OtpSetting;
-import af.asr.otp.data.model.SentOTP;
-import af.asr.otp.data.repository.OTPSettingsRepository;
-import af.asr.otp.data.repository.SentOTPRepository;
+import af.asr.otp.tests.model.OtpSetting;
+import af.asr.otp.tests.model.SentOTP;
+import af.asr.otp.tests.repository.OTPSettingsRepository;
+import af.asr.otp.tests.repository.SentOTPRepository;
 import af.asr.otp.sender.OTPGenerator;
 import af.asr.otp.sender.OTPSender;
 import lombok.AllArgsConstructor;

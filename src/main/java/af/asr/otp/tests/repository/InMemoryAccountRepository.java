@@ -1,4 +1,4 @@
-package af.asr.otp.data.repository;
+package af.asr.otp.tests.repository;
 
 public class InMemoryAccountRepository extends AccountRepository {
 

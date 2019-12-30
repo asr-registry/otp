@@ -1,6 +1,6 @@
 package af.asr.otp.sender;
 
-import af.asr.otp.data.model.OtpSetting;
+import af.asr.otp.tests.model.OtpSetting;
 import com.twilio.Twilio;
 import com.twilio.rest.api.v2010.account.Message;
 import lombok.extern.log4j.Log4j2;
