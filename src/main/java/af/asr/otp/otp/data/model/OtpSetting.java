@@ -33,3 +33,4 @@ public class OtpSetting {
 
         return (OTPSender) SpringContext.getBean(sender);
     }
+}
