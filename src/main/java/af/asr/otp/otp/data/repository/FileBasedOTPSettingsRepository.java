@@ -6,7 +6,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import lombok.extern.log4j.Log4j2;
 import org.apache.commons.lang3.StringUtils;
-import org.openidentityplatform.passwordless.otp.models.OTPSetting;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ResourceLoader;
 
@@ -15,7 +14,7 @@ import java.io.IOException;
 import java.util.List;
 
 @Log4j2
-public class FileBasedOTPSettingsRepository implements OTPSettingsRespository {
+public class FileBasedOTPSettingsRepository implements OTPSettingsRepository {
 
 
     @Value("${otp.settings.config:classpath:otp-settings.yaml}")
@@ -33,7 +32,7 @@ public class FileBasedOTPSettingsRepository implements OTPSettingsRespository {
     private void init() {
         try {
             ObjectMapper objectMapper = new ObjectMapper(new YAMLFactory());
-            otpSettings = objectMapper.readValue(resourceLoader.getResource(configPath).getInputStream(), new TypeReference<List<OTPSetting>>(){});
+            otpSettings = objectMapper.readValue(resourceLoader.getResource(configPath).getInputStream(), new TypeReference<List<OtpSetting>>(){});
             log.info("loaded OTP settings: {}", otpSettings);
         } catch (IOException e) {
             log.error("error occurred : {}", e.toString());

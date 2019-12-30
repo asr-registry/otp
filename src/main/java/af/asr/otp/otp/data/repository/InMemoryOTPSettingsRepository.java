@@ -1,16 +1,18 @@
 package af.asr.otp.otp.data.repository;
 
 
+import af.asr.otp.otp.data.model.OtpSetting;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class InMemoryOTPSettingsRepository implements OTPSettingsRepository {
 
-    private Map<String, OTPSetting> otpSettingMap;
+    private Map<String, OtpSetting> otpSettingMap;
 
     public InMemoryOTPSettingsRepository() {
         otpSettingMap = new HashMap<>();
-        OTPSetting smsSetting = new OTPSetting();
+        OtpSetting smsSetting = new OtpSetting();
         smsSetting.setId("sms");
         smsSetting.setAccountId(null);
         smsSetting.setMessageTemplate("Code: ${otp}");
@@ -26,7 +28,7 @@ public class InMemoryOTPSettingsRepository implements OTPSettingsRepository {
 
 
     @Override
-    public OTPSetting getSetting(String settingId) {
+    public OtpSetting getSetting(String settingId) {
         return otpSettingMap.get(settingId);
     }
 }
