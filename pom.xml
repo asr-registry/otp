@@ -19,6 +19,7 @@
 		<io.springfox.version>2.9.2</io.springfox.version>
 		<commons-text.version>1.8</commons-text.version>
 		<commons-lang3.version>3.9</commons-lang3.version>
+		<twilio.version>7.37.4</twilio.version>
 	</properties>
 
 	<dependencies>
@@ -49,8 +50,12 @@
 			<version>2.10.1</version>
 		</dependency>
 
-
-
+		<!--SMS provider integrations-->
+		<dependency>
+			<groupId>com.twilio.sdk</groupId>
+			<artifactId>twilio</artifactId>
+			<version>${twilio.version}</version>
+		</dependency>
 
 
 		<dependency>
