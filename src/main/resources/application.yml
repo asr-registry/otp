@@ -1,0 +1,21 @@
+
+
+spring:
+  mail:
+    host: ${MAIL_HOST:smtp.gmail.com}
+    port: ${MAIL_PORT:587}
+    username: ${MAIL_USERNAME}
+    password: ${MAIL_PASSWORD}
+    protocol: smtp
+    tls: true
+    properties.mail.smtp:
+      auth: true
+      starttls.enable: true
+      ssl.trust: ${MAIL_SSL_TRUST_HOST:smtp.gmail.com}
+otp:
+  settings:
+    config: ${OTP_SETTINGS_CONFIG:classpath:otp-settings.yaml}
+
+webauthn:
+  settings:
+    config: ${WEBAUTHN_SETTINGS_CONFIG:classpath:webauthn-settings.yaml}
