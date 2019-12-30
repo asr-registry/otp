@@ -1,12 +1,13 @@
 package af.asr.otp.otp.data.model;
 
 
+import af.asr.otp.otp.configuration.SpringContext;
 import lombok.Data;
 import lombok.ToString;
 
 @Data
 @ToString
-public class OTPSetting {
+public class OtpSetting {
 
     private String id;
 
